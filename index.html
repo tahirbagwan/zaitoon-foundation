@@ -1,52 +1,328 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
+
+<html>
+	<head>
+		<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
+ 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="#">WebSiteName</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Page 1-1</a></li>
-              <li><a href="#">Page 1-2</a></li>
-              <li><a href="#">Page 1-3</a></li>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script src="js/jquery.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" >
+	
+	
+	</head>
+	<body>
+	   
+
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 121px;">
+			<a class="navbar-brand" href="#"><img src="images/logo.png" width="30" height="30" alt="" style="height: 123px;width: 160px;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item active">
+				  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			  </ul>	
+			  <form class="form-inline my-2 my-lg-0">
+				<div class="progress" style="width: 100px;margin-right: 80px;">
+					<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+					  10%
+					</div>
+				  </div>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Donate</button>
+			  </form>
+			</div>
+		  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+	  <div class="wellcome-container">
+		<img src="images/img-3.jpg" class="bg-img">
+		<div class="overlay">
+		  <div class="wellcome-content-container">
+			<div class="wellcome-content">
+			  <h1 class="notranslate" style="color: #44863b;text-align: center;"> Zaitoon Foundaton </h1>
+			  <p class="text-center" style=" color: #8c4626;">
+				A social initiative has been started in keeping with the concept of social service through social work.
+				started <strong>Zaitoon Foundaton</strong> program feeding the hungry. 
+			  </br> <strong>Please don’t waste food as Someone is Dying for food EveryDay. </strong>
+			</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+
+
+	<!-- <section class="main-body">
+		<div class="container text-center">
+			<div>
+				
+			</div>
+			<div>
+				<h2>
+					
+				</h2>
+
+				<p style="margin:0px;">
+					We running a crowdfunding campaign to raise funds distribute food, create awareness on COVID-19, and report cases of COVID-19. there comes no day as of today where we don't hear new cases of COVID-19 cases. These cases are across the country. Be it a small town or a tier 1 city, capital or commercial capital of india. n the middle of such a pandemic, we have millions of poor famillies.	
+				</p>
+			</div>
+		</div>
+	</section> -->
+	<section>
+		<div class="container-fluid about-us">
+		  <!-- <h3 class="text-center text-capitalize title">about us</h3> -->
+		  <!-- <hr class=" mx-auto pt-5 underline"
+		  style="width: 120px;"> -->
+		  <div class="row pt-5">
+			<div class="col-lg-6 col-md-6 col-12"> 
+				<h2 style="color: #44863b;   ">The Social Problem</h2>
+				<hr>
+				<p style="color:#8c4626;">
+				  We all know how COVID-19 is spreading and affecting people. Lot of measures have been taken by individuals and the government of India which includes lock down of the country. During the lockdown, many people who stay in slums, migrants, and daily wage earners are getting affected the most and are most vulnerable to COVID-19.
+				</p>
+			  </div>
+			<div class="col-lg-6 col-md-6 col-12 "> 
+			  <img src="images/img-4.jpg" class="img-fluid prob-img">
+			</div>
+		  </div>     
+		</div>
+	  </section>
+	  <hr class="mt-4">
+	  <section>
+		<div class="container-fluid about-us">
+		  <!-- <h3 class="text-center text-capitalize title">about us</h3> -->
+		  <!-- <hr class=" mx-auto pt-5 underline"
+		  style="width: 120px;"> -->
+		  <div class="row pt-5">
+			<div class="col-lg-6 col-md-6 col-12"> 
+				<h2 style="color: #44863b;   ">The Social Solution</h2>
+				<hr>
+				<p style="color:#8c4626;">
+					Zaitoon foundation team has taken the initiative to distribute Food, Clothing and Grocery to the needy people. Upliftment of Socially Backward People. 
+					Prioritizing supply of Essential Items to the one 's who need. This distribution drive will take place in
+					 India Pune
+					Australia Sydney once enough funds are raised
+				</p>
+			  </div>
+			 
+			<div class="col-lg-6 col-md-6 col-12 "> 
+			  <img src="images/img-5.jpg" class="img-fluid prob-img">
+	
+			</div>
+			
+		  </div>     
+		</div>
+	  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+	<div class="contact_us" style="margin-top: 50px;"> <h3 class="text-center text-capitalize title " style="color: #44863b;;">Our Team</h3></div>
+	<hr class=" mx-auto pt-5 underline" style="width: 140px;">
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 col-sm-12">
+            <div class="card" style="width:320px">
+				<img class="card-img-top" src="images/faik-sayyed.jpg" alt="Card image" style="width:100%">
+				<div class="card-body">
+				  <h4 class="card-title" style="color: #44863b;;">Faik Sayyed</h4>
+				  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  <a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+			</div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <div class="card" style="width:320px">
+				<img class="card-img-top" src="images/zaki-sayyed.jpg" alt="Card image" style="height: 231px;width: 318px;">
+				<div class="card-body">
+				  <h4 class="card-title"style="color: #44863b;;">Zaki Sayyed</h4>
+				  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  <a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+			  </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <div class="card" style="width:320px">
+				<img class="card-img-top" src="images/samar-shaikh.jpg" alt="Card image" style="height: 231px;width: 318px;">
+				<div class="card-body">
+				  <h4 class="card-title"style="color: #44863b;;">Samar Shaikh</h4>
+				  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  <a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+			  </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <div class="card" style="width:320px">
+				<img class="card-img-top" src="images/safdar-khan.jpg" alt="Card image" style="height: 231px;width: 318px;">
+				<div class="card-body">
+				  <h4 class="card-title"style="color: #44863b;;">Safdar Khan</h4>
+				  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  <a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+			  </div>
+		</div>
+		
+        <div class="col-md-3 mt-4 col-sm-12">
+            <div class="card" style="width:320px">
+				<img class="card-img-top" src="images/sohail-shaikh.jpg" alt="Card image" style="height: 231px;width: 318px;">
+				<div class="card-body">
+				  <h4 class="card-title"style="color: #44863b;;">Sohail Shaikh</h4>
+				  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  <a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+			  </div>
+        </div>
+        <div class="col-md-3 mt-4 col-sm-12">
+            <div class="card" style="width:320px">
+				<img class="card-img-top" src="images/baqi-sayyed.jpg" alt="Card image" style="height: 231px;width: 318px;">
+				<div class="card-body">
+				  <h4 class="card-title"style="color: #44863b;;">Baqi Sayyed</h4>
+				  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  <a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+			  </div>
+        </div>
+        <div class="col-md-3 mt-4 col-sm-12">
+            <div class="card" style="width:320px">
+				<img class="card-img-top" src="images/Tahir.jpg" alt="Card image" style="height: 231px;width: 318px;">
+				<div class="card-body">
+				  <h4 class="card-title"style="color: #44863b;;">Tahir Bagwan</h4>
+				  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  <a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+			  </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            
+        </div>
+    </div>
+ </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+	<div class="contact_us" style="margin-top: 50px; color: #44863b;"> <h3 class="text-center text-capitalize title ">Contact Us</h3></div>
+    <hr class=" mx-auto pt-5 underline" style="width: 140px;">
+    <div id="contact" class="site-footer">
+      <div class="colophon wigetized">
+        <div class="container-boxed max">
+          <div class="row" style="margin: 0px;padding: 20px;">
+            <div class="col-md-6 col-sm-6 widget_form">
+              <div class="widget">
+                <h4 class="widget-title title">
+                  <span class="nth-word-first" style="padding-left: 10%;">Contact</span> Form
+                  <hr class=" mx-5 pt-5 underline"style="width: 143px;">
+                </h4>
+
+                <div class="textwidget">
+                  <form>
+                    <p>
+                      <input type="text" id="contact_name" name="name" value="" size="40" class="form-control" placeholder="Name" required>
+                    </p>
+                    <p>
+                      <input type="text" id="contact_email" name="email" value="" size="40" class="form-control" placeholder="Email">
+                    </p>
+                    <p>
+                      <input type="Number" name="Phone Number" 
+                      id="contact_phone" value="" size="40" class="form-control" placeholder="Phone Number" required>
+                    </p>
+                    <p>
+                      <textarea name="message" id="contact_message" cols="40" rows="3" class="form-control textarea" placeholder="Message" required></textarea>
+                    </p>
+                  </br>
+                  <input type="button" value="Send" onclick="sendMail()" class="form-control form-submit">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 widget_text address_title">
+            <div class="widget ">
+              <h4 class="widget-title title">Contact Details</h4>
+              <hr class=" mx-5 pt-2 underline"
+              style="width: 163px;">
+              <div class="textwidget">
+                <div class="address">
+                  <br>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li" ><i class="fas fa-home"></i></span>Address : </li>
+                  </br>
+                  <li><span class="fa-li"><i class="fas fa-envelope"></i></span>Email Id : foundationzaitoon@gmail.com</li>
+                </br>
+                <li><span class="fa-li"><i class="fas fa-mobile-alt"></i></span>ADMIN-1 : </li>
+              </br>
+              <li><span class="fa-li"><i class="fas fa-mobile"></i></span>ADMIN-2 : </li>
             </ul>
-          </li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
+          </div>                
+        </div>
       </div>
     </div>
-  </nav>
-  
-  <div class="container">
-    <h3>Collapsible Navbar</h3>
-    <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
-      <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-    </div>
 
-  </body>
-  </html>
+  </div>  
+</div>  
+</div>
+</section>
+
+
+
+
+
+
+
+
+	
+	   
+	   
+	</body>
+ </html>
